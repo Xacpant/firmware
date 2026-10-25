@@ -1,0 +1,27 @@
+{
+  "features": [
+    {
+      "menu": "IR > IR Monitor",
+      "mode": "receive-only",
+      "refresh_max_hz": 4,
+      "controls": {
+        "SEL": "clear counters",
+        "BACK": "exit"
+      }
+    },
+    {
+      "menu": "Config > Live Status",
+      "mode": "read-only",
+      "refresh_max_hz": 1,
+      "controls": {
+        "SEL": "pause/resume",
+        "BACK": "exit"
+      }
+    }
+  ],
+  "ir_library_profile": "IRremoteESP8266 full defaults explicitly enabled",
+  "new_third_party_libraries": [],
+  "removed_hardware_reintroduced": false,
+  "host_tests": 14,
+  "device_tested": false
+}

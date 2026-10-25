@@ -1,0 +1,125 @@
+{
+  "target": "lilygo-t-embed-cc1101-plus",
+  "date": "2026-10-25",
+  "platform": "55.3.39",
+  "arduino": "3.3.9",
+  "framework_libs": "5.5.4+sha.735507283d",
+  "note": "Installed package metadata from this build attempt; floating Git references are not a complete lockfile.",
+  "dependencies": [
+    {
+      "folder": "Adafruit BusIO"
+    },
+    {
+      "folder": "Adafruit PN532"
+    },
+    {
+      "folder": "AnimatedGIF"
+    },
+    {
+      "folder": "ArduinoJson",
+      "name": "ArduinoJson",
+      "version": "7.4.3"
+    },
+    {
+      "folder": "AsyncTCP",
+      "name": "AsyncTCP",
+      "version": "3.5.0"
+    },
+    {
+      "folder": "BER-TLV",
+      "name": "BER-TLV",
+      "version": "0.0.0+20261025142633"
+    },
+    {
+      "folder": "ESP32-PSRamFS"
+    },
+    {
+      "folder": "ESP32Time",
+      "name": "ESP32Time",
+      "version": "2.0.6"
+    },
+    {
+      "folder": "ESP8266Audio",
+      "name": "ESP8266Audio",
+      "version": "2.4.1"
+    },
+    {
+      "folder": "ESP8266SAM",
+      "name": "ESP8266SAM",
+      "version": "1.1.0"
+    },
+    {
+      "folder": "ESPAsyncWebServer",
+      "name": "ESPAsyncWebServer",
+      "version": "3.12.1"
+    },
+    {
+      "folder": "FastLED",
+      "name": "FastLED",
+      "version": "3.10.8"
+    },
+    {
+      "folder": "FFT",
+      "name": "FFT",
+      "version": "0.0.1"
+    },
+    {
+      "folder": "IRremoteESP8266",
+      "name": "IRremoteESP8266",
+      "version": "2.8.6"
+    },
+    {
+      "folder": "JPEGDecoder"
+    },
+    {
+      "folder": "LibSSH-ESP32"
+    },
+    {
+      "folder": "mquickjs",
+      "name": "mquickjs",
+      "version": "0.0.6"
+    },
+    {
+      "folder": "NimBLE-Arduino"
+    },
+    {
+      "folder": "NTPClient"
+    },
+    {
+      "folder": "PNGdec"
+    },
+    {
+      "folder": "RadioLib",
+      "name": "RadioLib",
+      "version": "7.8.1"
+    },
+    {
+      "folder": "RF24",
+      "name": "RF24",
+      "version": "1.4.11"
+    },
+    {
+      "folder": "SimpleCLI",
+      "name": "SimpleCLI",
+      "version": "1.1.4"
+    },
+    {
+      "folder": "SmartRC-CC1101-Driver-Lib",
+      "name": "SmartRC-CC1101-Driver-Lib",
+      "version": "2.5.7"
+    },
+    {
+      "folder": "Time",
+      "name": "Time",
+      "version": "1.6.1"
+    },
+    {
+      "folder": "WireGuard-ESP32"
+    },
+    {
+      "folder": "XPowersLib",
+      "name": "XPowersLib",
+      "version": "0.3.3"
+    }
+  ]
+}

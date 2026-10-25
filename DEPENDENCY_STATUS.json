@@ -1,0 +1,19 @@
+{
+  "checked_on": "2026-10-25",
+  "NimBLE-Arduino": {
+    "configured": "2.5.1",
+    "source": "https://github.com/h2zero/NimBLE-Arduino/releases/tag/2.5.1",
+    "integration_tested": false
+  },
+  "ArduinoJson": {
+    "configured": "7.4.3",
+    "source": "https://github.com/bblanchon/ArduinoJson/releases",
+    "host_json_tested": true
+  },
+  "Arduino-ESP32": {
+    "platform_configured": "55.03.39",
+    "newer_stable_found": "3.3.12",
+    "status": "Retained custom Bruce/exFAT stack until compatible build/device validation"
+  },
+  "other_libraries": "Kept existing Bruce dependency definitions; not all updated or integration tested"
+}

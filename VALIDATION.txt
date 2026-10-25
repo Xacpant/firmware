@@ -1,0 +1,1 @@
+Current development status: see XACPANT_VALIDATION.md. Earlier logs describe previous attempts, not device verification.

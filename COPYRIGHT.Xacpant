@@ -1,0 +1,10 @@
+Xacpant — LilyGO T-Embed CC1101 Plus customization
+
+Xacpant project maintainer: yusuf9847748-cyber
+Copyright (C) 2026 yusuf9847748-cyber — original Xacpant-specific additions and modifications.
+
+The firmware is derived from Bruce. The original Bruce and third-party copyright notices remain in force for their respective code. This notice does not claim exclusive ownership of Bruce or its libraries.
+
+The Xacpant-specific code additions are provided under GNU Affero General Public License version 3 (AGPL-3.0-only). See LICENSE for the complete license. Dependencies retain their own licenses; see THIRD_PARTY.md.
+
+The user-supplied logo is preserved byte-for-byte. No ownership or separate relicensing of that supplied artwork is asserted by this code notice.

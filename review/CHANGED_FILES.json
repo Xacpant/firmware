@@ -1,0 +1,577 @@
+[
+  {
+    "path": ".github/workflows/build_tembed_plus.yml",
+    "sha256": "aa09c6b121e6447a5b364034fd1b0dea9ebc21f46d752372270c0542f62b5d2a",
+    "size": 675
+  },
+  {
+    "path": ".gitignore",
+    "sha256": "0a317e131f2e9b3a152cf96be7181760b050e53b7bedc4fa4d2284d32d339620",
+    "size": 492
+  },
+  {
+    "path": ".vscode/tasks.json",
+    "sha256": "46558d9afeeaa21f6c09d031095e5655dcd7396885eeb65d19d33cb47d8fe5ad",
+    "size": 576
+  },
+  {
+    "path": "assets/xacpant-logo.png",
+    "sha256": "f652f7ad01cb57b3583069739ecdf5991afb2f11582169169e87a5f504149c95",
+    "size": 18550
+  },
+  {
+    "path": "boards/_boards_json/lilygo-t-embed-cc1101.json",
+    "sha256": "1dbe1116c88ed9437b9cf3c434488ce832a37ca92e5094f48fe362fafa051de1",
+    "size": 1279
+  },
+  {
+    "path": "boards/lilygo-t-embed-cc1101/lilygo-t-embed-cc1101.ini",
+    "sha256": "6acd45cbc993448364fc7c88e76c79fbb97950077fe9e84313cc592399d28796",
+    "size": 1402
+  },
+  {
+    "path": "boards/lilygo-t-embed-cc1101/pins_arduino.h",
+    "sha256": "de4fe0617071bb22ae3b324635f0cd6cd3ab1cf43025da8e263c92943a0ac7cc",
+    "size": 4083
+  },
+  {
+    "path": "boards/pinouts/pins_arduino.h",
+    "sha256": "8f2747ce630d75374e3103c8a5d81315937f43ae8be0a4a91bd7c415c86b03a4",
+    "size": 216
+  },
+  {
+    "path": "build.py",
+    "sha256": "6347ec76658610cd5e5f0a7a3f8af688dff5b091b2d5f7dff72caafba2ed25e7",
+    "size": 5307
+  },
+  {
+    "path": "BUILD_ATTEMPT.txt",
+    "sha256": "6661c997df54ea0c554dca0e99e27e6d0f6df4bc1b41834bc5432dedbdbf9f1f",
+    "size": 7569
+  },
+  {
+    "path": "CHANGES_TR.md",
+    "sha256": "14fa7d4f4f2a7c576494db05fbeeddb7e8ac5f14f97010dae4dd32e554962db7",
+    "size": 10426
+  },
+  {
+    "path": "COPYRIGHT.Xacpant",
+    "sha256": "9a57dab26a6c544240df3cbcf17173e28fd7a8e017c936d0a03d8af5fe59f0a0",
+    "size": 767
+  },
+  {
+    "path": "DEPENDENCY_STATUS.json",
+    "sha256": "a55d0e87c433edaae6bb6c980c4beeea3ab260b94e3c5dc488ea79a1474b152c",
+    "size": 641
+  },
+  {
+    "path": "docs/boot-preview.png",
+    "sha256": "7144428e923f4640b81d0cf451b299f363f8ca10aa8a7a1d54c5b7f8555e7b9c",
+    "size": 18862
+  },
+  {
+    "path": "embedded_resources/web_interface/checksum.sha256",
+    "sha256": "7c066943a7922b10df7af15dc268bf82050f3251fa77a8c62dd0ae8211595e88",
+    "size": 64
+  },
+  {
+    "path": "embedded_resources/web_interface/index.html",
+    "sha256": "0b05e1df60b712f171dc8d193ff2018e7767e3bfe2706a445f20690e4cf8caa4",
+    "size": 26088
+  },
+  {
+    "path": "embedded_resources/web_interface/login.html",
+    "sha256": "64305449ece5cc4e8194236a8e27165189ad4dc28cc055c4d808f06b58688525",
+    "size": 1720
+  },
+  {
+    "path": "FEATURES_ADDED.json",
+    "sha256": "5c2a1da37b75da29bde418f235654b43ad9112ee301eef5d2668de2036e26736",
+    "size": 596
+  },
+  {
+    "path": "include/current_year.h",
+    "sha256": "e4bc03be966abef7c9a2f909d12f4dd79700227c2063182191f4f566a4ed7498",
+    "size": 41
+  },
+  {
+    "path": "include/globals.h",
+    "sha256": "e0ae81e86f5c458e741d51846fe77769bb105304920b4edd236aa4fc6e98288b",
+    "size": 7250
+  },
+  {
+    "path": "include/MenuItemInterface.h",
+    "sha256": "f0701bd31fed07ffd4c3945d6ad68abe8d0ffd07fab576fbeb33190a0a1a2050",
+    "size": 5175
+  },
+  {
+    "path": "include/precompiler_flags.h",
+    "sha256": "cb0d6b0c03e30a5b4f5b74b1e11052ae559d983e235b297689c136b670eb0ca6",
+    "size": 7500
+  },
+  {
+    "path": "include/webFiles.h",
+    "sha256": "31a4feabd4db7f5c46085fc139d77bc0a9d7fd952de4f5f1768163d497acc728",
+    "size": 100755
+  },
+  {
+    "path": "PC_KURULUMU_TR.md",
+    "sha256": "2f5198a9abfd0c05ec7c30ec24789605e5bc76d60e00cf3aeaba7589fd7ebdef",
+    "size": 2114
+  },
+  {
+    "path": "platformio.ini",
+    "sha256": "4361800cb12e87918028ef1c5a11364e83e9c2d5c1b0b7abae423f36c1065be2",
+    "size": 4573
+  },
+  {
+    "path": "README.md",
+    "sha256": "6a8942fe0a9e31653ccc0a99a0bc398af71107d9e3c28b6a3e98e84cfe8f661d",
+    "size": 4061
+  },
+  {
+    "path": "REMOVED_HARDWARE_FILES.json",
+    "sha256": "2a4c4d87ea300829e70227970f4085880f3f83200a1d5a358471b24f4ea0cb96",
+    "size": 7020
+  },
+  {
+    "path": "SETUP_ATTEMPT.txt",
+    "sha256": "0c5985e7ae0de1ce03ac4501a9e1798b40b2bcc02e7c83eb41ff20268a91bc2c",
+    "size": 7416
+  },
+  {
+    "path": "src/assets/xacpant_logo_rgb565.h",
+    "sha256": "259bf86869860ef5eb1b014b0d3f9882f5c1468bd1f08e9b31887023f5015f83",
+    "size": 546866
+  },
+  {
+    "path": "src/core/config.h",
+    "sha256": "5ec96f0a6498c0d105c7f98ab16b370bb43fe08249e4d951ead626430fef7f22",
+    "size": 6505
+  },
+  {
+    "path": "src/core/configPins.cpp",
+    "sha256": "c2ee9b4a44025011ee1e87344f3eac8fd767c0bd5fa0db572bfcd9bd7a8ffce4",
+    "size": 13711
+  },
+  {
+    "path": "src/core/configPins.h",
+    "sha256": "94f49dee141c49e3fa8744ce459394a5d8438305e5ddc33ba0ac5ae7278d62ac",
+    "size": 7318
+  },
+  {
+    "path": "src/core/display.cpp",
+    "sha256": "2a9a72dbd2f983259c4bd6bd1ce2908ef301a5bf03f2c49ec85d7f6c1a9f314d",
+    "size": 75685
+  },
+  {
+    "path": "src/core/display.h",
+    "sha256": "76961f0023cca4b4367e04bb460afc08dd8443c92c410e54bf968be79e19c13b",
+    "size": 34204
+  },
+  {
+    "path": "src/core/i2c_finder.cpp",
+    "sha256": "3bebba7b7cd1157ef0444db6569ed46db930898a8140d5159d4988c743d503eb",
+    "size": 1929
+  },
+  {
+    "path": "src/core/main_menu.cpp",
+    "sha256": "ee4a4ec18992aba954038cad07d3218560f7490ffd63b20b2cc3f89030b94028",
+    "size": 3247
+  },
+  {
+    "path": "src/core/massStorage.cpp",
+    "sha256": "60ad46f9394d14bf8e7b9235768d09f5c183ba51c23fef0ca78b67a50b9ee2aa",
+    "size": 5169
+  },
+  {
+    "path": "src/core/menu_items/ConfigMenu.cpp",
+    "sha256": "5100f019c30f55999724956eccabb10bcd74c10cfc286c6d67ae96bec6de6511",
+    "size": 14982
+  },
+  {
+    "path": "src/core/menu_items/IRMenu.cpp",
+    "sha256": "cee4c9e9614128186ef9069d03182fddcd6be17c03e9aeb39dd1227ada6f8b33",
+    "size": 2783
+  },
+  {
+    "path": "src/core/menu_items/RFIDMenu.cpp",
+    "sha256": "a755dd8c6e4b937ff41ee3e3acb1d0dbae0bf14f75d4d14fa99f82d532fbb450",
+    "size": 5381
+  },
+  {
+    "path": "src/core/menu_items/RFMenu.cpp",
+    "sha256": "69b57a7b91d0655f30c5edfb3356e5aaed8f3220fe4a64dbbe8c761811a2872c",
+    "size": 3914
+  },
+  {
+    "path": "src/core/mykeyboard.cpp",
+    "sha256": "84f6578d4eab72ad4b1e4e7e70f5e708bb0462c50d5b02bf51f013671b2b83dc",
+    "size": 53694
+  },
+  {
+    "path": "src/core/resample_rgb565.h",
+    "sha256": "84963be14c9927f2209794fe98ee8488709ddafeaed924899684e3b7d33257a6",
+    "size": 1531
+  },
+  {
+    "path": "src/core/scrollableTextArea.cpp",
+    "sha256": "bc32b64680c85a3a2f2346bb3213d6887167c0bc4228be2c4a9ead050afcd992",
+    "size": 6330
+  },
+  {
+    "path": "src/core/sd_functions.cpp",
+    "sha256": "c469a3cf03e1dd77c81a9206631a2e7368f2ff5763fe49dfabc37afda623e11d",
+    "size": 46270
+  },
+  {
+    "path": "src/core/serial_commands/rfid_commands.cpp",
+    "sha256": "c3099cc1837bdbe1213c4f1fe24085ab030e17d62b70ad91be54b0d900f410b6",
+    "size": 13533
+  },
+  {
+    "path": "src/core/serial_commands/util_commands.cpp",
+    "sha256": "5a902613025b6998a4d5c964e15a42881567afb8ac33c3213819a8e685c1f6b4",
+    "size": 15858
+  },
+  {
+    "path": "src/core/settings.cpp",
+    "sha256": "b712d90b63692c36a93ed1b47d2d6cf966a8e1e582fe5483ab682866663a7cb0",
+    "size": 58008
+  },
+  {
+    "path": "src/core/settings.h",
+    "sha256": "f20ed0db17635bb4bc990221ecc289cd715967404abefb6dfd827a0339bc908b",
+    "size": 2008
+  },
+  {
+    "path": "src/core/splash_fit.h",
+    "sha256": "2b45d1a78c8621a9ac11749b59077be852430811bdb1f6f8d2bab76097651fae",
+    "size": 768
+  },
+  {
+    "path": "src/core/startup_app.cpp",
+    "sha256": "87561f3ebc9bc225be6667e85286f72a4d6eb2d19e25e2aa25c7ee9a2dd5421c",
+    "size": 1893
+  },
+  {
+    "path": "src/core/utils.cpp",
+    "sha256": "2828cebe71f10d1f43907b927a7c0176276038701935253c66d4a0c906466d3a",
+    "size": 14270
+  },
+  {
+    "path": "src/core/wifi/webInterface.cpp",
+    "sha256": "4c008308575dec692ed84004ccfe90329564291633f1046002f1300cc5b7ce71",
+    "size": 32417
+  },
+  {
+    "path": "src/core/wifi/wg.cpp",
+    "sha256": "ec49e9225f9fbc5823ebaf2419a123be5cd117ff179d881b3bb17b511abcfbe3",
+    "size": 5207
+  },
+  {
+    "path": "src/core/xacpant_brand.h",
+    "sha256": "4ddc27c8058917e576d8a80557b9fc764b379bc5c15255119294c5430894ef2a",
+    "size": 296
+  },
+  {
+    "path": "src/core/xacpant_splash.cpp",
+    "sha256": "7b8d865b3dd96bc28e232733013c4a87a286204efbdd82c5dd8fbe4bb0d2d1df",
+    "size": 1495
+  },
+  {
+    "path": "src/core/xacpant_splash.h",
+    "sha256": "caff995c845951e49b9cc1d3b5fb2544f1254d6ed34edc7eefd9a770f2bdb7b4",
+    "size": 122
+  },
+  {
+    "path": "src/main.cpp",
+    "sha256": "7ccb54f2ffb76cbb812e21038cc9b26b7162a80e7e351ea416f997810d325cb7",
+    "size": 19911
+  },
+  {
+    "path": "src/modules/badusb_ble/ducky_typer.cpp",
+    "sha256": "8b7e1bc8ce5967b69054e1d635b4c6a0724454b79540494603cbabd3eee2d060",
+    "size": 60296
+  },
+  {
+    "path": "src/modules/bjs_interpreter/dialog_js.cpp",
+    "sha256": "c36749657b3fc8dafc103e797873f73768daffcc2fcbd4611cab5ebb66ce655f",
+    "size": 15580
+  },
+  {
+    "path": "src/modules/bjs_interpreter/helpers_js.cpp",
+    "sha256": "12a903d90b49f49613182eb387cf80073ae4e571ae6685b5c65b06d6eac21049",
+    "size": 18399
+  },
+  {
+    "path": "src/modules/bjs_interpreter/interpreter.cpp",
+    "sha256": "4f8b9fc0befe733b73d599e5bc8c53ceabd09c804fe8c2584482fcf37db0f6a3",
+    "size": 11642
+  },
+  {
+    "path": "src/modules/ble/ble_common.cpp",
+    "sha256": "8f09aada6646aa212cfe27bcf3234e9fc7232580d541778c8da3876ad08073ef",
+    "size": 11485
+  },
+  {
+    "path": "src/modules/ble/ble_sniffer.cpp",
+    "sha256": "541f3564ef965bce5140d6aad0c43264438febabb289543db9aefac817ffab8f",
+    "size": 13661
+  },
+  {
+    "path": "src/modules/ble/ble_spam.cpp",
+    "sha256": "8ae0c9e3d019656d7f8c967bd4039e1a45e43bbdb10fe50dd51572fad18e3229",
+    "size": 93523
+  },
+  {
+    "path": "src/modules/ble/BLE_Suite.cpp",
+    "sha256": "ebc5e563be9aa16979f40bd4707fe36c36e23a83969da151929f10423c2feae2",
+    "size": 233258
+  },
+  {
+    "path": "src/modules/diagnostics/board_health.cpp",
+    "sha256": "184a6b95181b01de588826511c217247443076c5891efe1ffd81d3d823714d4a",
+    "size": 2437
+  },
+  {
+    "path": "src/modules/diagnostics/board_health.h",
+    "sha256": "b31c482b9b42726d3b3f7c266b5c0af0cde681daa15f5fbc1bdc8bf2b376bab2",
+    "size": 144
+  },
+  {
+    "path": "src/modules/diagnostics/live_status.cpp",
+    "sha256": "3b8e4a5d62fed7e9e8ae9973a9cd1baa66877b734bfcb2ab642bbe09d8467696",
+    "size": 1779
+  },
+  {
+    "path": "src/modules/diagnostics/live_status.h",
+    "sha256": "f7c4940ceb41fca48746b457445bb5d26fc35924c2b150cd2fdf67806d5c5358",
+    "size": 125
+  },
+  {
+    "path": "src/modules/diagnostics/monitor_state.h",
+    "sha256": "c9312ccbde283ca04d64e8b7313065d84e3ca6165fc7f3f2b05ebc1c7cb86af6",
+    "size": 806
+  },
+  {
+    "path": "src/modules/ethernet/ARPScanner.cpp",
+    "sha256": "a7a872be4f1f58b38c3a885248a2e00697e0e1547820643a0ff8924847671183",
+    "size": 10133
+  },
+  {
+    "path": "src/modules/ethernet/ARPScanner.h",
+    "sha256": "f09239c9b54caa9fe30a5abae8cbe7de1ec485c6163627511f879f716800cc80",
+    "size": 774
+  },
+  {
+    "path": "src/modules/ethernet/ARPSpoofer.cpp",
+    "sha256": "f40302dd24bc651f540d78ef5a5e6f76721930c5f5b9691977d7d2258a983a82",
+    "size": 5870
+  },
+  {
+    "path": "src/modules/ethernet/HostInfo.cpp",
+    "sha256": "b2041e4103cefef8c9a71011e25983a44d1f66a835bd8276498ea6b81a178ec3",
+    "size": 4090
+  },
+  {
+    "path": "src/modules/ir/ir_jammer.cpp",
+    "sha256": "660449dec81b60ffc7ef2d40233a4305a1248d955e6ef4b9b4a6218361aaad8a",
+    "size": 26363
+  },
+  {
+    "path": "src/modules/ir/ir_monitor.cpp",
+    "sha256": "f7e2cc1dc9a628792db5cf23efa1701d32eadcbd2bd4d2a06e23868e7b8f5b6e",
+    "size": 2308
+  },
+  {
+    "path": "src/modules/ir/ir_monitor.h",
+    "sha256": "f7a94ebadd7bc41223171487e754b4a0ccabd444fd987f1efc6a8bfeaf4450a4",
+    "size": 122
+  },
+  {
+    "path": "src/modules/ir/ir_read.cpp",
+    "sha256": "87d6c44b6d10c8b13b270478cfde22da1104a8a5eb4a8a607cdc355bbe71f507",
+    "size": 15236
+  },
+  {
+    "path": "src/modules/NRF24/nrf_common.cpp",
+    "sha256": "e3739d2a0a5d43bef3692cc694e4cbaff590c6990eaa4f8ba91bcddfcd296fc6",
+    "size": 4028
+  },
+  {
+    "path": "src/modules/NRF24/nrf_mousejack.cpp",
+    "sha256": "e61e419b09d3450ea0c4acddd5dea91df4e849718d6ee93728b0d0ee69fbae9e",
+    "size": 35937
+  },
+  {
+    "path": "src/modules/NRF24/nrf_spectrum.cpp",
+    "sha256": "a154e909464cbce937d7e3e2b93745a331c3f7c3415490085a99c8c54136a3d7",
+    "size": 3033
+  },
+  {
+    "path": "src/modules/others/tururururu.cpp",
+    "sha256": "71589aa63cdc22395c43e032e11c0b12a3ffeac4270bc088bdf2c2342e5fae7b",
+    "size": 6732
+  },
+  {
+    "path": "src/modules/pwnagotchi/ui.cpp",
+    "sha256": "fe5fac14eb3043a1f5d2c36aad73bbeb20f808a08dc508a4c7e992121817c4f5",
+    "size": 4863
+  },
+  {
+    "path": "src/modules/reverseShell/reverseShell.cpp",
+    "sha256": "6774c1ccdbc157c757eb4ce352bd5134c0a4ffca8630720257a9bccd39efd3a3",
+    "size": 8779
+  },
+  {
+    "path": "src/modules/rf/emit.cpp",
+    "sha256": "58d1a19ab78ea8a5b94b77332f12f20e257579951c3e5b86212e78df52c134b2",
+    "size": 4062
+  },
+  {
+    "path": "src/modules/rf/record.cpp",
+    "sha256": "5bed70869df98d69a2f2a98b58233e946b9ffb6940f4d3e2cb35bd81f3b9927b",
+    "size": 15738
+  },
+  {
+    "path": "src/modules/rf/rf_jammer.cpp",
+    "sha256": "7c76ccaa44866c0fbc5e4952147279a83066036b60b13b888230d7f2574ecdea",
+    "size": 20108
+  },
+  {
+    "path": "src/modules/rf/rf_scan.cpp",
+    "sha256": "48e8d7a5e7a3498a58037df16a55a22947abdaa158ca8043385037ec3b02525d",
+    "size": 32725
+  },
+  {
+    "path": "src/modules/rfid/srix_tool.cpp",
+    "sha256": "1a27e08ad467bce27e45f9b7b6fc605216e9fc8be0e4ba16cada8e51a4720fa1",
+    "size": 36168
+  },
+  {
+    "path": "src/modules/rfid/tag_o_matic.cpp",
+    "sha256": "74cddddb660df983e497d6cb3ef0f81148ab83f819847126debac90f85e3c703",
+    "size": 30489
+  },
+  {
+    "path": "src/modules/rfid/tag_o_matic.h",
+    "sha256": "4dbf3654ee0d29386451030578f199655132866b7b399f9bc3fa490a8121ad6e",
+    "size": 3767
+  },
+  {
+    "path": "src/modules/wifi/channel_analyzer.cpp",
+    "sha256": "37e58942ac5d6114003ddaab695a7c4a9780ad115d7e58f656f3a5f89f165373",
+    "size": 6752
+  },
+  {
+    "path": "src/modules/wifi/clients.cpp",
+    "sha256": "5a552a61bdd0ee325bab1083b7e9bf3d7d9bc6727d0d58c1e849ba35cbf14fd4",
+    "size": 44128
+  },
+  {
+    "path": "src/modules/wifi/deauther.cpp",
+    "sha256": "2f9a7a09aaa142391f477b27f67cad1a32c05d9792a4e35df6d72120af18de96",
+    "size": 43874
+  },
+  {
+    "path": "src/modules/wifi/jam_detect.cpp",
+    "sha256": "cd4e56c2013f653090ac85e8054527bbb08c604d6386010e907d921470f2348a",
+    "size": 8152
+  },
+  {
+    "path": "src/modules/wifi/karma_attack.cpp",
+    "sha256": "a6d3368e0e471ce825ea1f4f8ee2804d4f5cba822a755a889d82ec0792c36e17",
+    "size": 129370
+  },
+  {
+    "path": "src/modules/wifi/netcut.cpp",
+    "sha256": "edc5dba86ff726dd14e63f3cf666efe51da0b773b4c9c385fe5ebcdf0965af2d",
+    "size": 31512
+  },
+  {
+    "path": "src/modules/wifi/responder.cpp",
+    "sha256": "301bfe2f4764afa0057da307eef54f5cee9f2726e848c3709d962c710689ad07",
+    "size": 49773
+  },
+  {
+    "path": "src/modules/wifi/sniffer.cpp",
+    "sha256": "49d26862c050e98922a8d1b4a78ddb75c325ad1bfc7476dfe34e061f599d3d0b",
+    "size": 54306
+  },
+  {
+    "path": "src/modules/wifi/socks4_proxy.cpp",
+    "sha256": "0a0b9268343709aaa06cb683b31c4ca06dfc2016cb0ed434315bc29c929d6b56",
+    "size": 6446
+  },
+  {
+    "path": "src/modules/wifi/tcp_utils.cpp",
+    "sha256": "206689ecbb827fa7cd03c0d5dda9921a1e2a99b39df1eb5f2d6f1957bcd4e901",
+    "size": 5664
+  },
+  {
+    "path": "src/modules/wifi/wifi_atks.cpp",
+    "sha256": "5d35f5609016c5d6ddca7f0a651d407b690330efd7c0a91ad029677fc64b10bb",
+    "size": 33232
+  },
+  {
+    "path": "tests/test_tembed_plus.py",
+    "sha256": "703775afa3bcda39222f25f1838a8ab820c47015a6848391e7bd612da54a6347",
+    "size": 19828
+  },
+  {
+    "path": "tests/test_xacpant.py",
+    "sha256": "718de4ecccaa435ef5b99a66af8b35b7c2a86839a45a3e82e3f037fa9d0f276b",
+    "size": 4356
+  },
+  {
+    "path": "tools/generate_xacpant_logo.py",
+    "sha256": "e0eca6be12d307a932a6d5b2071a5b03e5aa83a09c44a5401eaa9d3861af499f",
+    "size": 902
+  },
+  {
+    "path": "tools/setup_build.py",
+    "sha256": "b329e818d7d8c9c93418c2415a46d9c0458db9a39e83d7757d5a626f463acf3e",
+    "size": 3248
+  },
+  {
+    "path": "tools/tembed_plus_guard.py",
+    "sha256": "a078d69fed5c2bd3b9f11c670438a7f3671677f6ea52e6485cbaa138b3fd6290",
+    "size": 590
+  },
+  {
+    "path": "UPSTREAM_README.md",
+    "sha256": "d7103e945763fbcff196c8c129cb0aacec64c2b9aafc1aed5d81f7b1b6ee2f64",
+    "size": 17950
+  },
+  {
+    "path": "VALIDATION.txt",
+    "sha256": "419a4f911814d4e3f9a82e7a1e320004a88665e2ce3e15f930636b6548c36034",
+    "size": 121
+  },
+  {
+    "path": "Xacpant.code-workspace",
+    "sha256": "73e208fab277b65486b7d6d83d75304dd2fb765d91f0bad5b8e2fe14b403f8b3",
+    "size": 166
+  },
+  {
+    "path": "XACPANT_ANALIZ_TR.md",
+    "sha256": "68e382af3d59dee6f597603554227d80ddaca50a3635b2a2fb0b3878d7bf1959",
+    "size": 3855
+  },
+  {
+    "path": "XACPANT_CHANGES_TR.md",
+    "sha256": "b3eb8cdbfba630fd1ee37d6059914a17c3185376e6721585dd80cea52dc03e96",
+    "size": 2884
+  },
+  {
+    "path": "XACPANT_DEPENDENCIES.json",
+    "sha256": "bedd6ca5fff59130e5d4d39e410bcf7fa5e93f0b560eba315a9e574574d19c56",
+    "size": 2385
+  },
+  {
+    "path": "XACPANT_VALIDATION.md",
+    "sha256": "de5521bc77be6ede0b479133ce2a8d4ac982246888facd06b762b7c4457ffc87",
+    "size": 1783
+  }
+]

@@ -1,0 +1,71 @@
+#ifndef __MAIN_MENU_H__
+#define __MAIN_MENU_H__
+
+#include <MenuItemInterface.h>
+
+#include "menu_items/BleMenu.h"
+#include "menu_items/ClockMenu.h"
+#include "menu_items/ConfigMenu.h"
+#include "menu_items/ConnectMenu.h"
+#include "menu_items/FileMenu.h"
+#include "menu_items/IRMenu.h"
+#include "menu_items/NRF24.h"
+#include "menu_items/OthersMenu.h"
+#include "menu_items/RFIDMenu.h"
+#include "menu_items/RFMenu.h"
+#include "menu_items/ScriptsMenu.h"
+#include "menu_items/WifiMenu.h"
+#if !defined(LITE_VERSION) && !defined(DISABLE_ETHERNET)
+#include "menu_items/EthernetMenu.h"
+#endif
+#if !defined(DISABLE_FM)
+#include "menu_items/FMMenu.h"
+#endif
+#if !defined(DISABLE_GPS)
+#include "menu_items/GpsMenu.h"
+#endif
+#if !defined(LITE_VERSION) && !defined(DISABLE_LORA)
+#include "menu_items/LoRaMenu.h"
+#endif
+class MainMenu {
+public:
+    FileMenu fileMenu;
+    BleMenu bleMenu;
+    ClockMenu clockMenu;
+    ConnectMenu connectMenu;
+    ConfigMenu configMenu;
+#if !defined(DISABLE_FM)
+    FMMenu fmMenu;
+#endif
+#if !defined(DISABLE_GPS)
+    GpsMenu gpsMenu;
+#endif
+    IRMenu irMenu;
+    NRF24Menu nrf24Menu;
+    OthersMenu othersMenu;
+    RFIDMenu rfidMenu;
+    RFMenu rfMenu;
+    ScriptsMenu scriptsMenu;
+    WifiMenu wifiMenu;
+#if !defined(LITE_VERSION) && !defined(DISABLE_LORA)
+    LoRaMenu loraMenu;
+#endif
+#if !defined(LITE_VERSION) && !defined(DISABLE_ETHERNET)
+    EthernetMenu ethernetMenu;
+#endif
+
+    MainMenu();
+    ~MainMenu();
+
+    void begin(void);
+    std::vector<MenuItemInterface *> getItems(void) { return _menuItems; }
+    void hideAppsMenu();
+
+private:
+    int _currentIndex = 0;
+    int _totalItems = 0;
+    std::vector<MenuItemInterface *> _menuItems;
+};
+extern MainMenu mainMenu;
+
+#endif
