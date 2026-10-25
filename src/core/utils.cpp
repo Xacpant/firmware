@@ -160,7 +160,7 @@ void showDeviceInfo() {
     ScrollableTextArea area = ScrollableTextArea("DEVICE INFO");
 
     area.addLine("Xacpant Version: " + String(BRUCE_VERSION));
-    area.addLine("Maintainer: yusuf9847748-cyber");
+    area.addLine("Maintainer: Xacpant");
     area.addLine("Based on Bruce / AGPL v3");
     area.addLine("EEPROM size: " + String(EEPROMSIZE));
     area.addLine("");

@@ -47,6 +47,6 @@ IR Monitor, Live Status, Onboard Health ve Last Reset ekranları eklendi. Logo k
 
 ## Lisans ve doğrulama
 
-Xacpant'a özgü eklemelerde yusuf9847748-cyber bildirimi bulunur. Bruce'un AGPL v3 ve üçüncü taraf bildirimleri korunmuştur. Özgün logonun mülkiyetinin devralındığı iddia edilmez.
+Xacpant'a özgü eklemelerde Xacpant bildirimi bulunur. Bruce'un AGPL v3 ve üçüncü taraf bildirimleri korunmuştur. Özgün logonun mülkiyetinin devralındığı iddia edilmez.
 
 Gerçek test durumu XACPANT_VALIDATION.md dosyasındadır. Host kontrolleri tüm ESP32 bileşenlerinin çalıştığını, donma nedenlerinin tamamının giderildiğini veya Flipper Zero'ya üstünlük sağlandığını kanıtlamaz. Cihaz testi yapılmadı.

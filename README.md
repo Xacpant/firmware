@@ -1,6 +1,6 @@
 # Xacpant — LilyGO T-Embed CC1101 Plus
 
-Sürdürme ve Xacpant değişiklik bildirimleri: **yusuf9847748-cyber** — [COPYRIGHT.Xacpant](COPYRIGHT.Xacpant).
+Sürdürme ve Xacpant değişiklik bildirimleri: **Xacpant** — [COPYRIGHT.Xacpant](COPYRIGHT.Xacpant).
 
 Bruce tabanlı, yalnızca LilyGO T-Embed CC1101 Plus için hazırlanmış geliştirme sürümü.
 

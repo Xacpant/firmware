@@ -1,4 +1,4 @@
-// Copyright (C) 2026 yusuf9847748-cyber
+// Copyright (C) 2026 Xacpant
 // SPDX-License-Identifier: AGPL-3.0-only
 #include "xacpant_splash.h"
 #include "splash_fit.h"

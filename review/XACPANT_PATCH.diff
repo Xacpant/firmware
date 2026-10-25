@@ -957,8 +957,8 @@
 @@ -0,0 +1,10 @@
 +Xacpant — LilyGO T-Embed CC1101 Plus customization
 +
-+Xacpant project maintainer: yusuf9847748-cyber
-+Copyright (C) 2026 yusuf9847748-cyber — original Xacpant-specific additions and modifications.
++Xacpant project maintainer: Xacpant
++Copyright (C) 2026 Xacpant — original Xacpant-specific additions and modifications.
 +
 +The firmware is derived from Bruce. The original Bruce and third-party copyright notices remain in force for their respective code. This notice does not claim exclusive ownership of Bruce or its libraries.
 +
@@ -2455,7 +2455,7 @@
 +# Xacpant — LilyGO T-Embed CC1101 Plus
  
 -# :shark: Bruce
-+Sürdürme ve Xacpant değişiklik bildirimleri: **yusuf9847748-cyber** — [COPYRIGHT.Xacpant](COPYRIGHT.Xacpant).
++Sürdürme ve Xacpant değişiklik bildirimleri: **Xacpant** — [COPYRIGHT.Xacpant](COPYRIGHT.Xacpant).
  
 -Bruce is a versatile ESP32 firmware packed with offensive-security tools, built to make Red Team operations fast and portable.
 +Bruce tabanlı, yalnızca LilyGO T-Embed CC1101 Plus için hazırlanmış geliştirme sürümü.
@@ -9166,7 +9166,7 @@
 --- /dev/null
 +++ b/src/core/resample_rgb565.h
 @@ -0,0 +1,30 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +#include <cstdint>
@@ -11698,7 +11698,7 @@
 --- /dev/null
 +++ b/src/core/splash_fit.h
 @@ -0,0 +1,22 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +#include <cstdint>
@@ -11738,7 +11738,7 @@
  
 -    area.addLine("Bruce Version: " + String(BRUCE_VERSION));
 +    area.addLine("Xacpant Version: " + String(BRUCE_VERSION));
-+    area.addLine("Maintainer: yusuf9847748-cyber");
++    area.addLine("Maintainer: Xacpant");
 +    area.addLine("Based on Bruce / AGPL v3");
      area.addLine("EEPROM size: " + String(EEPROMSIZE));
      area.addLine("");
@@ -11809,7 +11809,7 @@
 --- /dev/null
 +++ b/src/core/xacpant_brand.h
 @@ -0,0 +1,7 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +// Public product identity. Internal Bruce symbols/file formats stay compatible.
@@ -11819,7 +11819,7 @@
 --- /dev/null
 +++ b/src/core/xacpant_splash.cpp
 @@ -0,0 +1,35 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#include "xacpant_splash.h"
 +#include "splash_fit.h"
@@ -11857,7 +11857,7 @@
 --- /dev/null
 +++ b/src/core/xacpant_splash.h
 @@ -0,0 +1,4 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +void drawXacpantSplash();
@@ -13631,7 +13631,7 @@
 --- /dev/null
 +++ b/src/modules/diagnostics/board_health.cpp
 @@ -0,0 +1,56 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#include "board_health.h"
 +#include "core/bus_HAL.h"
@@ -13690,7 +13690,7 @@
 --- /dev/null
 +++ b/src/modules/diagnostics/board_health.h
 @@ -0,0 +1,5 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +void showBoardHealth();
@@ -13698,7 +13698,7 @@
 --- /dev/null
 +++ b/src/modules/diagnostics/live_status.cpp
 @@ -0,0 +1,40 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#include "live_status.h"
 +#include "core/display.h"
@@ -13741,14 +13741,14 @@
 --- /dev/null
 +++ b/src/modules/diagnostics/live_status.h
 @@ -0,0 +1,4 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +void showLiveSystemStatus();
 --- /dev/null
 +++ b/src/modules/diagnostics/monitor_state.h
 @@ -0,0 +1,26 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +#include <cstdint>
@@ -13874,7 +13874,7 @@
 --- /dev/null
 +++ b/src/modules/ir/ir_monitor.cpp
 @@ -0,0 +1,61 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#include "ir_monitor.h"
 +#include "core/display.h"
@@ -13938,7 +13938,7 @@
 --- /dev/null
 +++ b/src/modules/ir/ir_monitor.h
 @@ -0,0 +1,4 @@
-+// Copyright (C) 2026 yusuf9847748-cyber
++// Copyright (C) 2026 Xacpant
 +// SPDX-License-Identifier: AGPL-3.0-only
 +#pragma once
 +void irReceiverMonitor();
@@ -16489,7 +16489,7 @@
 +
 +## Lisans ve doğrulama
 +
-+Xacpant'a özgü eklemelerde yusuf9847748-cyber bildirimi bulunur. Bruce'un AGPL v3 ve üçüncü taraf bildirimleri korunmuştur. Özgün logonun mülkiyetinin devralındığı iddia edilmez.
++Xacpant'a özgü eklemelerde Xacpant bildirimi bulunur. Bruce'un AGPL v3 ve üçüncü taraf bildirimleri korunmuştur. Özgün logonun mülkiyetinin devralındığı iddia edilmez.
 +
 +Gerçek test durumu XACPANT_VALIDATION.md dosyasındadır. Host kontrolleri tüm ESP32 bileşenlerinin çalıştığını, donma nedenlerinin tamamının giderildiğini veya Flipper Zero'ya üstünlük sağlandığını kanıtlamaz. Cihaz testi yapılmadı.
 --- /dev/null
